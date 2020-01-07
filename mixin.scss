@@ -1,0 +1,20 @@
+@mixin respond($break-point){
+    @if($break-point) == phone{
+        @media(max-width: 37.5em){
+            // 600px;
+            @content;
+        }
+    }
+    @if($break-point) == phone{
+        @media(max-width: 56.25em){
+           // 900px;
+            @content;
+        }
+    }
+    @if($break-point) == phone{
+        @media(max-width: 75em){
+           // 1200px;
+            @content;
+        }
+    }
+}
