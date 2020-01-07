@@ -298,6 +298,9 @@ html {
     margin-top: 5rem;
     position: relative;
   }
+  &-first::before {
+    top: 100%;
+  }
   &-item {
     list-style: none;
     display: flex;

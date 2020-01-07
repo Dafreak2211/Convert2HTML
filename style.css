@@ -282,6 +282,8 @@ html {
   .steps-list {
     margin-top: 5rem;
     position: relative; }
+  .steps-first::before {
+    top: 100%; }
   .steps-item {
     list-style: none;
     display: flex;
